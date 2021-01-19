@@ -1,0 +1,28 @@
+{
+  "name": "html5-layouts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ghoststead/html5-layouts.git"
+  },
+  "keywords": [
+    "html",
+    "html5",
+    "css",
+    "bootstrap"
+  ],
+  "author": "GhostStead",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ghoststead/html5-layouts/issues"
+  },
+  "homepage": "https://github.com/ghoststead/html5-layouts#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

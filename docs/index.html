@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <title>HTML5 Layouts</title>
+
+    <style>
+        .aspect-ratio {
+            position: relative;
+            width: 100%;
+            height: 0;
+            padding-bottom: 51%;
+        }
+
+        .aspect-ratio iframe {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            left: 0;
+            top: 0;
+            border: 2px deeppink solid;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container py-5">
+    <main>
+        <div class="my-5 py-5 bg-light text-center">
+            <h1 class="display-4">HTML5 Layouts using Bootstrap 5</h1>
+        </div>
+        <section class="mb-5">
+            <div class="aspect-ratio">
+                <iframe src="bs5/basic.html"></iframe>
+            </div>
+            <a class="d-block my-4 text-center" href="bs5/basic.html">
+                Basic layout with header and footer.
+            </a>
+        </section>
+        <section class="mb-5">
+            <div class="aspect-ratio">
+                <iframe src="bs5/admin.html"></iframe>
+            </div>
+            <a class="d-block my-4 text-center" href="bs5/admin.html">
+                Admin layout with sidebar.
+            </a>
+        </section>
+        <section class="mb-5">
+            <div class="aspect-ratio">
+                <iframe src="bs5/login.html"></iframe>
+            </div>
+            <a class="d-block my-4 text-center" href="bs5/admin.html">
+                Centered content useful for a login page.
+            </a>
+        </section>
+    </main>
+</div>
+
+<footer class="bg-dark py-2">
+    <div class="container text-white text-center">
+        Sponsored by <a href="https://www.ghoststead.com/">GhostStead</a>.
+    </div>
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+</body>
+</html>
