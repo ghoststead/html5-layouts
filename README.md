@@ -1,7 +1,7 @@
 # HTML5 Layouts
 
 This repo contains the source code for blog article:
-https://www.ghoststead.com/html5-layouts-with-bootstrap-5/
+https://www.ghoststead.com/blog/html5-layouts-with-bootstrap-5/
 
 
 ## Live demo
